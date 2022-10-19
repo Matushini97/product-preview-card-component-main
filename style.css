@@ -107,9 +107,12 @@ button img {
 
 @media only screen and (max-width: 600px) and (min-width: 340px) {
 
+body {
+}
+
 .container {
     margin: 2.5em;
-    width: 85%;
+    width: 60%;
     height: fit-content;
     top: 0;
     bottom: 0;
@@ -123,15 +126,20 @@ button img {
     margin-bottom: -14px;
 }
 
-.img-container img {
+.desktop{
     display: none;
 }
 
 .mobile {
     display: block;
-    border-radius: 10px 10px 0 0;
 }
 
 .text-container {
-    border-radius: 0 0 10px 10px;}
+    border-radius: 0 0 10px 10px;
+    width: 84%;
+}
+
+.img-container img {
+    width: 104%;
+    border-radius: 10px 10px 0 0 ;
 }
