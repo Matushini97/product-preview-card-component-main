@@ -124,6 +124,8 @@ body {
     min-height: fit-content;
     max-height: fit-content;
     margin-bottom: -14px;
+    margin: auto;
+
 }
 
 .desktop{
